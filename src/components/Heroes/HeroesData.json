@@ -1,0 +1,615 @@
+[
+  {
+    "tag": 1,
+    "name": "Ana",
+    "icon": "/Icon-Ana.png",
+    "type":"Support",
+    "description":
+      "Former second in command of Overwatch, Ana Amari uses her skills and expertise to defend her home and the people she cares for.",
+    "health": 200,
+    "armour": 0,
+    "shield": 0,
+    "real_name": "Ana Amari",
+    "age": 62,
+    "height": null,
+    "affiliation": "Overwatch",
+    "base_of_operations": "Cairo, Egypt"
+  },
+  {
+    "tag": 2,
+    "name": "Ashe",
+    "icon": "/Icon-Ashe.png",
+    "type":"Damage",
+    "description":
+      "Ashe is the leader of the Deadlock Gang, a group of bandits and criminals who menace the American Southwest.",
+    "health": 200,
+    "armour": 0,
+    "shield": 0,
+    "real_name": "Ana Amari",
+    "age": 41,
+    "affiliation": "Overwatch",
+    "base_of_operations": "Deadlock Gorge, Arizona, USA"
+    
+  },
+  {
+    "tag": 3,
+    "name": "Baptiste",
+    "icon":"/Icon-Baptiste.png",
+    "type":"Support",
+
+    "description":
+      "An elite combat medic and ex-talon operative, Baptiste now uses his skills to help those whose lives have been impacted by war.",
+    "health": 200,
+    "armour": 0,
+    "shield": 0,
+    "real_name": "Jean-Baptiste Augustin",
+    "age": 38,
+    "affiliation": "Overwatch",
+    "base_of_operations": "Watchpoint: Gibraltar"
+  },
+  {
+    "tag": 4,
+    "name": "Bastion",
+    "type":"Damage",
+    "icon":"/Icon-Bastion.png",
+    "description":
+      "Once a frontline combatant in the Omnic Crisis, this curious Bastion unit now explores the world, fascinated by nature but wary of a fearful humanity",
+    "health": 200,
+    "armour": 100,
+    "shield": 0,
+    "real_name": "SST Laboratories Siege Automaton E54",
+    "age": 32,
+    "affiliation": "Ironclad Guild",
+    "base_of_operations": "Gothenburg, Sweden"
+  },
+  {
+    "tag": 5,
+    "name": "Brigitte",
+    "type":"Support",
+    "icon":"/Icon-Brigitte.png",
+    "description":
+      "Brigitte Lindholm, squire to Reinhardt Wilheml, is a former mechanical engineer who has decided to take up arms and fight on the front lines to protect those in need.",
+    "health": 150,
+    "armour": 50,
+    "shield": 0,
+    "real_name": "Brigitte Lindholm",
+    "age": 25,
+    "affiliation": "Overwatch",
+    "base_of_operations": "Watchpoint: Gibraltar"
+  },
+  {
+    "tag": 6,
+    "name": "Cassidy",
+    "icon":"/Icon-cassidy.png",
+    "type":"Damage",
+    "description":
+      "Armed with his Peacekeeper revolver, the outlaw Cole Cassidy doles out justice on his own terms.",
+    "health": 225,
+    "armour": 0,
+    "shield": 0,
+    "real_name": "Cole Cassidy",
+    "age": 39,
+    "affiliation": "Overwatch",
+    "base_of_operations": "Watchpoint: Gibraltar"
+  },
+
+  {
+    "tag": 7,
+    "name": "D.Va",
+    "icon":"/Icon-D.Va.png",
+    "type":"Tank",
+
+    "description":
+      "D.Va is a former professional gamer who now uses her skills to pilot a state-of-the-art mech in defense of her country",
+    "health": 350,
+    "armour": 300,
+    "shield": 0,
+    "real_name": "Hana Song",
+    "age": 21,
+    "affiliation": "Overwatch",
+    "base_of_operations": "Watchpoint: Gibraltar"
+  },
+  {
+    "tag": 8,
+    "name": "Doomfist",
+    "icon":"/Icon-Doomfist.png",
+    "type":"Tank",
+
+    "description":
+      "One of the leaders of Talon, Doomfist is determined to plunge the world into a new conflict that he belives will make humanity stronger.",
+    "health": 450,
+    "armour": 0,
+    "shield": 0,
+    "real_name": "Akande Ogundimu",
+    "age": 47,
+    "affiliation": "Talon",
+    "base_of_operations": "Rome, Italy"
+  },
+  {
+    "tag": 9,
+    "name": "Echo",
+    "icon":"/Icon-Echo.png",
+    "type":"Damage",
+
+    "description":
+      "Programmed and desgined by Overwatch's Dr. Mina Liao, Echo is a robot with a rapidly adapting artificial intelligence.",
+    "health": 200,
+    "armour": 0,
+    "shield": 0,
+    "real_name": "Echo",
+    "age": 14,
+    "affiliation": "Overwatch",
+    "base_of_operations": "Watchpoint: Gibraltar"
+  },
+  {
+    "tag": 10,
+    "name": "Genji",
+    "icon": "/Icon-Genji.png",
+    "type":"Damage",
+    "description":
+      "Genji Shimada has made peace with the cyborg body he once rejected, and in doing so, he has discovered a higher humanity.",
+    "health": 200,
+    "armour": 0,
+    "shield": 0,
+    "real_name": "Genji Shimada",
+    "age": 37,
+    "affiliation": "Overwatch",
+    "base_of_operations": "Watchpoint: Gibraltar"
+  },
+  {
+    "tag": 11,
+    "name": "Hanzo",
+    "icon":"/Icon-Hanzo.png",
+    "type":"Damage",
+
+    "description":
+      "Mastering his skills as a bowman and an assassin, Hanzo Shimada strives to prove himself as a warrior without peer.",
+    "health": 200,
+    "armour": 0,
+    "shield": 0,
+    "real_name": "Hanzo Shimada",
+    "age": 40,
+    "affiliation": "Shimada Clan",
+    "base_of_operations": "Hanamura, Japan"
+  },
+  {
+    "tag": 12,
+    "name": "Illari",
+    "icon":"/Icon-Illari.png",
+    "type":"Support",
+
+    "description":
+      "Using her solar threading augmentation, Illari strikes down her enemies by harnessing the power of the sun.",
+    "health": 200,
+    "armour": 0,
+    "shield": 0,
+    "real_name": "Illari Quispe Ruiz",
+    "age": 18,
+    "affiliation": "Inti Warriors",
+    "base_of_operations": "Runasapi, Peru"
+  },
+  {
+    "tag": 13,
+    "name": "Junker Queen",
+    "icon":"/Icon-Junker_Queen.png",
+    "type":"Tank",
+
+    "description":
+      "A former wastelander, Odessa \"Dez\" Stone rules Junkertown with a sharp grin and iron fist.",
+    "health": 450,
+    "armour": 0,
+    "shield": 0,
+    "real_name": "Odessa \"Dez\" Stone",
+    "age": 31,
+    "affiliation": "Junkers",
+    "base_of_operations": "Junkertown, Australia"
+  },
+  {
+    "tag": 14,
+    "name": "Junkrat",
+    "icon":"/Icon-Junkrat.png",
+    "type":"Damage",
+
+    "description":
+      "Junkrat is an explosives-obsessed Junker who lives to cause chaos and destruction.",
+    "health": 200,
+    "armour": 0,
+    "shield": 0,
+    "real_name": "Jamison Fawkes",
+    "age": 27,
+    "affiliation": "Junkers",
+    "base_of_operations": "Junkertown, Australia"
+  },
+  {
+    "tag": 15,
+    "name": "Kiriko",
+    "icon":"/Icon-kiriko.png",
+    "type":"Support",
+
+    "description":
+      "After the fall of the Shimada clan, Kiriko fights to restore peace in Kanezaka",
+    "health": 200,
+    "armour": 0,
+    "shield": 0,
+    "real_name": "Kiriko Kamori",
+    "age": 21,
+    "affiliation": "Yokai",
+    "base_of_operations": "Kanezaka, Japan"
+  },
+  {
+    "tag": 16,
+    "name": "Lifeweaver",
+    "icon":"/Icon-Lifeweaver.png",
+    "type":"Support",
+
+    "description":
+      "A scientist, artist, and activist, Lifeweaver entwines the beauty of nature with the practicality of science. He dreams of healing the world.",
+    "health": 175,
+    "armour": 0,
+    "shield": 50,
+    "real_name": "Niran \"Bua\" Pruksamanee",
+    "age": 31,
+    "affiliation": "Vishkar Corporation",
+    "base_of_operations": "Atlantic Arcology"
+  },
+  {
+    "tag": 17,
+    "name": "Lucio",
+    "icon":"/Icon-Lucio.png",
+    "type":"Support",
+
+    "description":
+      "Lúcio is an international celebrity and musician who inspires social change through his music and actions.",
+    "health": 200,
+    "armour": 0,
+    "shield": 0,
+    "real_name": "Lúcio Correia dos Santos",
+    "age": 28,
+    "affiliation": "Overwatch",
+    "base_of_operations": "Rio de Janeiro, Brazil"
+  },
+  
+  {
+    "tag": 18,
+    "name": "Mei",
+    "icon":"/Icon-Mei.png",
+    "type":"Damage",
+
+    "description":
+      "Mei is a climatologist who has taken the fight tho preserve the environment and protect the world in her own hands.",
+    "health": 250,
+    "armour": 0,
+    "shield": 0,
+    "real_name": "Mei-Link Zhou",
+    "age": 33,
+    "affiliation": "Overwatch",
+    "base_of_operations": "Xi'an, China"
+  },
+  {
+    "tag": 19,
+    "name": "Mercy",
+    "icon":"/Icon-Mercy.png",
+    "type":"Support",
+
+    "description":
+      "A guardian angel to those who come under her care, Mercy is a peerless healer, a brilliant scientist, and a staunch advocate for peace",
+    "health": 200,
+    "armour": 0,
+    "shield": 0,
+    "real_name": "Angela Ziegler",
+    "age": 39,
+    "affiliation": "Overwatch",
+    "base_of_operations": "Watchpoint: Gibraltar"
+  },
+  {
+    "tag": 20,
+    "name": "Moira",
+    "icon":"/Icon-Moira.png",
+    "type":"Support",
+
+    "description":
+      "Equal parts brilliant and controversial, Talon scientist Moira O'Deorain is on the cutting edge of genetic engineering, searching for a way to rewrite the fundamental building blocks of life.",
+    "health": 200,
+    "armour": 0,
+    "shield": 0,
+    "real_name": "Moira O'Deorain",
+    "age": 50,
+    "affiliation": "The Ministries",
+    "base_of_operations": "Oasis, Iraq"
+  },
+  {
+    "tag": 21,
+    "name": "Orisa",
+    "icon":"/Icon-Orisa.png",
+    "type":"Tank",
+
+    "description":
+      "Built from parts of one of Numbani's short-lived OR15 defense robots, Orisa is the city's newest protector, through she still has much to learn.",
+    "health": 200,
+    "armour": 0,
+    "shield": 0,
+    "real_name": "Orisa",
+    "age": 1,
+    "affiliation": "Numbani",
+    "base_of_operations": "Numbani, Africa"
+  },
+  {
+    "tag": 22,
+    "name": "Pharah",
+    "icon":"/Icon-Pharah.png",
+    "type":"Damage",
+
+    "description":
+      "Pharah's commitment to duty runs in her blood. She comes from a long line of highly decorated soldiers and burns with the desire to serve with honor.",
+    "health": 200,
+    "armour": 0,
+    "shield": 0,
+    "real_name": "Fareeha Amari",
+    "age": 34,
+    "affiliation": "Overwatch",
+    "base_of_operations": "Watchpoint: Gibraltar"
+  },
+  {
+    "tag": 23,
+    "name": "Ramattra",
+    "icon":"/Icon-Ramattra.png",
+    "type":"Tank",
+
+    "description":
+      "Ramattra has been many things: a soldier, a monk, a revolutionary. Now a leader of Null Sector, he fights for the omnic people, no matter the cost.",
+    "health": 450,
+    "armour": 0,
+    "shield": 0,
+    "real_name": "Ramattra",
+    "age": 28,
+    "affiliation": "Null Sector",
+    "base_of_operations": "Shambali Monastery, Nepal"
+  },
+  {
+    "tag": 24,
+    "name": "Reaper",
+    "icon":"/Icon-Reaper.png",
+    "type":"Damage",
+
+    "description":
+      "Some speak of a black-robed terrorist known only as the Reaper. His identity and motives are a mystery. What is known is that where he appears, death follows.",
+    "health": 250,
+    "armour": 0,
+    "shield": 0,
+    "real_name": "Gabriel Reyes",
+    "age": 60,
+    "affiliation": "Talon",
+    "base_of_operations": "Rome, Italy"
+  },
+  {
+    "tag": 25,
+    "name": "Reinhardt",
+    "icon":"/Icon-Reinhardt.png",
+    "type":"Tank",
+    "description":
+      "Reinhardt Wilhelm styles himself as a champion of a bygone age, who lives by the knightly codes of valor, justice, and courage",
+    "health": 350,
+    "armour": 250,
+    "shield": 0,
+    "real_name": "Reinhardt Wilhelm",
+    "age": 63,
+    "affiliation": "Overwatch",
+    "base_of_operations": "Watchpoint: Gibraltar"
+  },
+  {
+    "tag": 26,
+    "name": "Roadhog",    
+    "icon":"/Icon-Roadhog.png",
+    "type":"Tank",
+
+    "description":
+      "Roadhog is a ruthless killer with a well-earned reputation for cruelty and wanton destruction.",
+    "health": 700 ,
+    "armour": 0,
+    "shield": 0,
+    "real_name": "Mako Rutledge",
+    "age": 50,
+    "affiliation": "Australian Liberation Front",
+    "base_of_operations": "Junkertown, Australia"
+  },
+  {
+    "tag": 27,
+    "name": "Sigma",    
+    "icon":"/Icon-Sigma.png",
+    "type":"Tank",
+
+    "description":
+      "Brilliant astrophysicist Siebren de Kuiper gained the ability to control gravity when an experiment went terribly wrong. Now, Talon manipultes him to their own ends.",
+    "health": 350 ,
+    "armour": 0,
+    "shield": 200,
+    "real_name": "Siebren de Kuiper",
+    "age": 64,
+    "affiliation": "Talon",
+    "base_of_operations": "International Space Station"
+  },
+  {
+    "tag": 28,
+    "name": "Sojourn",    
+    "icon":"/Icon-Sojourn.png",
+    "type":"Damage",
+
+    "description":
+      "Componse mostly of cybernetic enhancements, Sojourn is a peerless tactician with an unwavering moral compass, making her an indispensable ally... or a terrifying foe.",
+    "health": 200 ,
+    "armour": 0,
+    "shield": 0,
+    "real_name": "Vivian Chase",
+    "age": 51,
+    "affiliation": "Overwatch",
+    "base_of_operations": "Toronto, Canada"
+  },
+  {
+    "tag": 29,
+    "name": "Soldier: 76",    
+    "icon":"/Icon-Soldier_76.png",
+    "type":"Damage",
+
+    "description":
+      "Currently the target of an international manhunt, the vigilante known as Soldier: 76 wages a personal war to expose the truth behind Overwatch's collapse",
+    "health": 200,
+    "armour": 0,
+    "shield": 0,
+    "real_name": "John Francis \"Jack\" Morrison",
+    "age": 58,
+    "affiliation": null,
+    "base_of_operations": "Unknown"
+  },
+  {
+    "tag": 30,
+    "name": "Sombra",    
+    "icon":"/Icon-Sombra.png",
+    "type":"Damage",
+
+    "description":
+      "One of the world's most notorious hackers, Sombra uses information to maniuplate those in power.",
+    "health": 200,
+    "armour": 0,
+    "shield": 0,
+    "real_name": "Olivia Colomar",
+    "age": 32,
+    "affiliation": "Talon",
+    "base_of_operations": "Dorado, Mexico"
+  },
+  {
+    "tag": 31,
+    "name": "Symmetra",    
+    "icon":"/Icon-Symmetra.png",
+    "type":"Damage",
+
+    "description":
+      "Symmetra literally bends reality. By manipulating hard-light constructs, she crafts the world as she wishes it to be, in hopes of engineering a perfect society.",
+    "health": 100,
+    "armour": 0,
+    "shield": 100,
+    "real_name": "Satya Vaswani",
+    "age":30,
+    "affiliation": "Vishkar Corporation",
+    "base_of_operations": "Utopaea, India"
+  },
+  {
+    "tag": 32,
+    "name": "Torbjörn",
+    "icon":"/Icon-Torbjorn.png",
+    "type":"Damage",
+
+    "description":
+      "At its height, Overwatch possessed one of the most advanced armaments on the planet, which could be traced to the workshop of an ingenious engineer named Torbjörn Lindholm.",
+    "health": 200,
+    "armour": 50,
+    "shield": 0,
+    "real_name": "Torbjörn Lindholm",
+    "age": 59,
+    "affiliation": "Ironclad Guild",
+    "base_of_operations": "Gothenburg, Sweden"
+  },
+  {
+    "tag": 33,
+    "name": "Tracer",
+    "icon":"/Icon-Tracer.png",
+    "type":"Damage",
+
+    "description":
+      "The former Overwatch agent known as Tracer is a time-jumping adventurer and an irrepressible force for good.",
+    "health": 150,
+    "armour": 0,
+    "shield": 0,
+    "real_name": "Lena Oxton",
+    "age": 28,
+    "affiliation": "Overwatch",
+    "base_of_operations": "Watchpoint: Gibraltar"
+  },
+  {
+    "tag": 34,
+    "name": "Widowmaker",
+    "icon":"/Icon-Widowmaker.png",
+    "type":"Damage",
+
+    "description":
+      "Widowmaker is the perfect assassin: a patient, ruthlessly efficient killer who shows neither emotion nor remorse.",
+    "health": 175,
+    "armour": 0,
+    "shield": 0,
+    "real_name": "Amélie Lacroix",
+    "age": 35,
+    "affiliation": "Talon",
+    "base_of_operations": "Annecy, France"
+  },
+  {
+    "tag": 35,
+    "name": "Winston",    
+    "icon":"/Icon-Winston.png",
+    "type":"Tank",
+
+    "description":
+      "A super-intelligent, genetically engineered gorilla, Winston is a brilliant scientist and a champion for humanity's potential",
+    "health": 350,
+    "armour": 200,
+    "shield": 0,
+    "real_name": "Winston",
+    "age": 31,
+    "affiliation": "Overwatch",
+    "base_of_operations": "Watchpoint: Gibraltar"
+  },
+  {
+    "tag": 36,
+    "name": "Wrecking Ball",    
+    "icon":"/Icon-Wrecking_Ball.png",
+    "type":"Tank",
+
+    "description":
+      "Wrecking Ball is piloted by an intelligent, genetically engineered hamster named Hammond, who explores the world, searching for adventure",
+    "health": 450,
+    "armour": 100,
+    "shield": 150,
+    "real_name": "Hammond",
+    "age": 16,
+    "affiliation": "Junkers",
+    "base_of_operations": "Junkertown, Australia"
+  },
+  {
+    "tag": 37,
+    "name": "Zarya",
+    "icon":"/Icon-Zarya.png",
+    "type":"Tank",
+
+    "description":
+      "Zarya is one of the world's strongest women, a celebrated athlete who sacrificed personal glory to protect her family, friends, and country in a time of war.",
+    "health": 250,
+    "armour": 0,
+    "shield": 220,
+    "real_name": "Aleksandra Zaryanova",
+    "age": 30,
+    "affiliation": "Overwatch",
+    "base_of_operations": "Watchpoint: Gibraltar"
+  },
+  {
+    "tag": 38,
+    "name": "Zenyatta",
+    "icon":"/Icon-Zenyatta.png",
+    "type":"Support",
+
+    "description":
+      "Zenyatta is an omnic monk who wanders the world in search of spiritual enlightenment. It is said that those who cross his path are never the same again.",
+    "health": 75,
+    "armour": 0,
+    "shield": 150,
+    "real_name": "Tekhartha Zenyatta",
+    "age": 33,
+    "affiliation": "The Shambali",
+    "base_of_operations": "Shambali Monastery, Nepal"
+    
+  },
+  {
+    "tag":39,
+  "name":"Kasey Shee",
+  "type":"Support",
+  "icon":"/Icon-ScaredHamster.png",
+  "description":"https://kaseyshee.myportfolio.com"
+  }
+]

@@ -1,0 +1,83 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.nav_container {
+  margin: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.title_container {
+  display: flex;
+  font-family: BankSansBold;
+  font-size: 48px;
+  color: white;
+  flex: 8;
+}
+.title {
+  display: flex;
+  background-color: black;
+  border-radius: 5px;
+}
+.titleFor2 {
+  background-color: rgba(255, 115, 0, 0.89);
+  border-radius: 5px;
+  margin-left: 5px;
+}
+
+.topRight_container {
+  display: flex;
+  justify-content: space-around;
+  flex: 4;
+}
+.topRight_container > * {
+  margin-right: 10px;
+  border-radius: 5px;
+}
+.userProfile_container {
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+  align-items: center;
+  flex: 2;
+  font-size: 20px;
+}
+
+.userProfile_container:hover,
+.socials:hover,
+.challenges:hover {
+  border: solid 3px #fff;
+  transition: all ease-in-out 0.2s;
+}
+.imageProfile {
+  background-color: white;
+  border-radius: 5px 0 0 5px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.imageProfile img {
+  height: 60px;
+  border-radius: 5px 0 0 5px;
+}
+.userProfile {
+  font-family: BankSansRegular;
+  padding: 10px;
+  flex: 1;
+}
+.socials {
+  background-color: white;
+  text-align: center;
+  flex: 0.5;
+  padding: 10px;
+}
+
+.challenges {
+  color: white;
+  background-color: rgba(255, 115, 0, 0.89);
+  text-align: center;
+  flex: 0.5;
+  padding: 10px;
+}

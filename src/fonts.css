@@ -1,0 +1,45 @@
+@font-face {
+  font-family: BankSansBold;
+  src: url(fonts/Bank_Sans_EF_CY/Bank\ Sans\ EF\ CY\ Bold.otf)
+    format("opentype");
+}
+
+@font-face {
+  font-family: BankSansBoldOblique;
+  src: url(fonts/Bank_Sans_EF_CY/Bank\ Sans\ EF\ CY\ Bold\ Oblique.otf)
+    format("opentype");
+}
+@font-face {
+  font-family: BankSansLight;
+  src: url(fonts/Bank_Sans_EF_CY/Bank\ Sans\ EF\ CY\ Light.otf)
+    format("opentype");
+}
+
+@font-face {
+  font-family: BankSansLightOblique;
+  src: url(fonts/Bank_Sans_EF_CY/Bank\ Sans\ EF\ CY\ Light\ Oblique.otf)
+    format("opentype");
+}
+
+@font-face {
+  font-family: BankSansMedium;
+  src: url(fonts/Bank_Sans_EF_CY/Bank\ Sans\ EF\ CY\ Medium.otf)
+    format("opentype");
+}
+@font-face {
+  font-family: BankSansMediumOblique;
+  src: url(fonts/Bank_Sans_EF_CY/Bank\ Sans\ EF\ CY\ Medium\ Oblique.otf)
+    format("opentype");
+}
+
+@font-face {
+  font-family: BankSansRegular;
+  src: url(fonts/Bank_Sans_EF_CY/Bank\ Sans\ EF\ CY\ Regular.otf)
+    format("opentype");
+}
+
+@font-face {
+  font-family: BankSansRegularOblique;
+  src: url(fonts/Bank_Sans_EF_CY/Bank\ Sans\ EF\ CY\ Regular\ Oblique.otf)
+    format("opentype");
+}

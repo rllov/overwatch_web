@@ -1,13 +1,28 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import React from "react";
+import ReactDOM from "react-dom/client";
+import "./index.css";
+import reportWebVitals from "./reportWebVitals";
+import { HashRouter, Routes, Route } from "react-router-dom";
+import data from "./components/Heroes/HeroesData.json";
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+import Home from "./components/Home/Home";
+import Play from "./components/Play";
+import Nav from "./components/Navbar/Nav";
+import Heroes from "./components/Heroes/Heroes";
+import HeroProfile from "./components/Heroes/HeroProfile";
+
+const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <App />
+    <HashRouter>
+      <Nav />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/Play" element={<Play />} />
+        <Route path="/Heroes" element={<Heroes />} />
+        <Route path="/hero/:heroTag" element={<HeroProfile data={data} />} />
+      </Routes>
+    </HashRouter>
   </React.StrictMode>
 );
 

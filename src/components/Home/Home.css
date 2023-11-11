@@ -1,0 +1,98 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: BankSansBold;
+}
+
+.home_container {
+  margin: 30px;
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+}
+.Options {
+  margin-top: 50px;
+}
+.Options > * {
+  margin-bottom: 15px;
+}
+.Play_link,
+.Heroes_link,
+.Shop_link,
+.Battle_Pass_link {
+  color: white;
+  font-family: BankSansBoldOblique;
+  font-size: 48px;
+  transition: 1s;
+  width: 20%;
+  text-decoration: none;
+  padding: 5px;
+  background: linear-gradient(to right, #000, rgba(50, 60, 95, 1)),
+    linear-gradient(to right, #fff, #fff);
+
+  background-size: 100% 0.1em, 0 0.1em;
+  background-position: 100% 100%, 0% 100%;
+  background-repeat: no-repeat;
+  transition: background-size 400ms;
+}
+
+.Play:hover,
+.Heroes:hover,
+.Shop:hover,
+.Battle_Pass:hover {
+  margin-left: 40px;
+  background: rgba(50, 60, 95, 1);
+  transition: 0.4s;
+  width: fit-content;
+  padding: 5px;
+}
+
+.Social {
+  display: flex;
+}
+.Social .social_icon {
+  background-color: rgba(255, 115, 0, 0.89);
+  margin-left: 20px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-radius: 5px;
+  color: white;
+}
+.subOptions {
+  width: fit-content;
+  margin-top: 30px;
+}
+.subOptions > * {
+  margin-bottom: 5px;
+}
+.Social_link,
+.Career_Profile_link,
+.Challenges_link,
+.Progression_link {
+  color: white;
+  font-family: BankSansRegular;
+  font-size: 24px;
+  transition: 1s;
+  width: 20%;
+  text-decoration: none;
+  padding: 5px;
+
+  background: linear-gradient(to right, #000, rgba(50, 60, 95, 1)),
+    linear-gradient(to right, #fff, #fff);
+
+  background-size: 100% 0.1em, 0 0.1em;
+  background-position: 100% 100%, 0% 100%;
+  background-repeat: no-repeat;
+  transition: background-size 400ms;
+}
+
+.Social:hover,
+.Career_Profile:hover,
+.Challenges:hover,
+.Progression:hover {
+  margin-left: 40px;
+  background: rgba(50, 60, 95, 1);
+  transition: 0.4s;
+  width: fit-content;
+  padding: 5px;
+}
