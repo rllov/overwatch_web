@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/overwatch_web/static/css/main.df470875.css",
+    "main.js": "/overwatch_web/static/js/main.f0fae87d.js",
+    "static/js/787.796f744b.chunk.js": "/overwatch_web/static/js/787.796f744b.chunk.js",
+    "static/media/Bank Sans EF CY Medium Oblique.otf": "/overwatch_web/static/media/Bank Sans EF CY Medium Oblique.66f8b9464e2d1a312d87.otf",
+    "static/media/Bank Sans EF CY Light Oblique.otf": "/overwatch_web/static/media/Bank Sans EF CY Light Oblique.21920595c78701499fbf.otf",
+    "static/media/Bank Sans EF CY Regular Oblique.otf": "/overwatch_web/static/media/Bank Sans EF CY Regular Oblique.97c41d79ac8f21380d58.otf",
+    "static/media/Bank Sans EF CY Bold Oblique.otf": "/overwatch_web/static/media/Bank Sans EF CY Bold Oblique.a2258caad3c44a03892c.otf",
+    "static/media/Bank Sans EF CY Bold.otf": "/overwatch_web/static/media/Bank Sans EF CY Bold.522172ff89eaee835be0.otf",
+    "static/media/Bank Sans EF CY Medium.otf": "/overwatch_web/static/media/Bank Sans EF CY Medium.6394d8ba4efcaea2dc85.otf",
+    "static/media/Bank Sans EF CY Regular.otf": "/overwatch_web/static/media/Bank Sans EF CY Regular.46347accdebcb73ff599.otf",
+    "static/media/Bank Sans EF CY Light.otf": "/overwatch_web/static/media/Bank Sans EF CY Light.f41bfae634147651e87b.otf",
+    "index.html": "/overwatch_web/index.html",
+    "main.df470875.css.map": "/overwatch_web/static/css/main.df470875.css.map",
+    "main.f0fae87d.js.map": "/overwatch_web/static/js/main.f0fae87d.js.map",
+    "787.796f744b.chunk.js.map": "/overwatch_web/static/js/787.796f744b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.df470875.css",
+    "static/js/main.f0fae87d.js"
+  ]
+}
