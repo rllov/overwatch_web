@@ -27,13 +27,6 @@
   width: 20%;
   text-decoration: none;
   padding: 5px;
-  background: linear-gradient(to right, #000, rgba(50, 60, 95, 1)),
-    linear-gradient(to right, #fff, #fff);
-
-  background-size: 100% 0.1em, 0 0.1em;
-  background-position: 100% 100%, 0% 100%;
-  background-repeat: no-repeat;
-  transition: background-size 400ms;
 }
 
 .Play:hover,
@@ -45,6 +38,28 @@
   transition: 0.4s;
   width: fit-content;
   padding: 5px;
+}
+
+a.Play_link,
+a.Heroes_link,
+a.Shop_link,
+a.Battle_Pass_link,
+a.Social_link,
+a.Career_Profile_link,
+a.Challenges_link,
+a.Progression_link {
+  background: linear-gradient(to right, #000, rgba(50, 60, 95, 1)),
+    linear-gradient(to right, #fff, #fff);
+
+  background-size: 100% 0.1em, 0 0.1em;
+  background-position: 100% 100%, 0% 100%;
+  background-repeat: no-repeat;
+  transition: background-size 400ms;
+}
+
+a:hover,
+a:focus {
+  background-size: 0 0.1em, 100% 0.1em;
 }
 
 .Social {
@@ -76,14 +91,6 @@
   width: 20%;
   text-decoration: none;
   padding: 5px;
-
-  background: linear-gradient(to right, #000, rgba(50, 60, 95, 1)),
-    linear-gradient(to right, #fff, #fff);
-
-  background-size: 100% 0.1em, 0 0.1em;
-  background-position: 100% 100%, 0% 100%;
-  background-repeat: no-repeat;
-  transition: background-size 400ms;
 }
 
 .Social:hover,

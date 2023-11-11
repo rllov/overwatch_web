@@ -8,7 +8,7 @@ import { Link } from "react-router-dom";
 const HeroCard = ({ hero }) => (
   <Link to={`/hero/${hero.tag}`} key={hero.tag} className="hero-card-link">
     <img
-      src={`/images${hero.icon}`}
+      src={`/overwatch_web/images${hero.icon}`}
       style={{ width: "120px", height: "120px" }}
       alt={hero.name}
     />

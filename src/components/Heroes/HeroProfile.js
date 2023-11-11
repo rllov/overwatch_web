@@ -16,7 +16,9 @@ const HeroProfile = ({ data }) => {
     <div>
       <h1 className="profile_name">{hero.name}</h1>
       <p className="description">
-        <Link to={`${hero.description}`}>My Portfolio</Link>
+        <Link to={`${hero.linkTo}`} target="_blank">
+          My Portfolio
+        </Link>
       </p>
     </div>
   );
