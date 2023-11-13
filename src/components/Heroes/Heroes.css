@@ -9,16 +9,25 @@
   justify-content: space-around;
   margin-left: 100px;
   margin-right: 100px;
+  font-family: BankSansBold;
+  font-size: 32px;
 }
 
 .tank_container,
-.damage_container,
 .support_container {
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
-  flex: 1;
+  flex: 3;
 }
+
+.damage_container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  flex: 5;
+}
+
 .type_title {
   color: white;
   width: 100%;
@@ -40,7 +49,6 @@ a.hero-card-link {
   text-decoration: none;
 }
 a.hero-card-link:hover {
-  margin: -3px;
   display: "flex";
   flex-direction: "column";
   align-items: "center";
@@ -58,4 +66,13 @@ div.hero_name {
   background-color: white;
   width: 100%;
   height: 100%;
+}
+
+.back_button {
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+  border: 2px white solid;
+  border-radius: 5px;
+  left: 5%;
 }

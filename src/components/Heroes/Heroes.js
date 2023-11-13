@@ -4,11 +4,12 @@ import "../../fonts.css";
 import "./Heroes.css";
 
 import { Link } from "react-router-dom";
+import { Button } from "@mui/material";
 
 const HeroCard = ({ hero }) => (
   <Link to={`/hero/${hero.tag}`} key={hero.tag} className="hero-card-link">
     <img
-      src={`/overwatch_web/images${hero.icon}`}
+      src={`/overwatch_web/images/character_icons${hero.icon}`}
       style={{ width: "120px", height: "120px" }}
       alt={hero.name}
     />
@@ -54,7 +55,11 @@ const Heroes = (props) => {
         </div>
       </div>
 
-      <Link to="/">Back</Link>
+      <Button className="back_button">
+        <Link to="/" className="back_button">
+          Back
+        </Link>
+      </Button>
     </>
   );
 };

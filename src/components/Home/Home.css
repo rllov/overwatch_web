@@ -1,11 +1,9 @@
 * {
   padding: 0;
   margin: 0;
-  font-family: BankSansBold;
 }
 
 .home_container {
-  margin: 30px;
   display: flex;
   flex-direction: column;
   text-decoration: none;
@@ -18,31 +16,26 @@
 }
 .Play_link,
 .Heroes_link,
-.Shop_link,
+.Game_Modes_link,
 .Battle_Pass_link {
   color: white;
   font-family: BankSansBoldOblique;
   font-size: 48px;
-  transition: 1s;
-  width: 20%;
   text-decoration: none;
-  padding: 5px;
+  margin-left: 30px;
 }
 
 .Play:hover,
 .Heroes:hover,
-.Shop:hover,
+.Game_Modes:hover,
 .Battle_Pass:hover {
-  margin-left: 40px;
-  background: rgba(50, 60, 95, 1);
-  transition: 0.4s;
-  width: fit-content;
-  padding: 5px;
+  padding-left: 2%;
+  transition: 1s;
 }
 
 a.Play_link,
 a.Heroes_link,
-a.Shop_link,
+a.Game_Modes_link,
 a.Battle_Pass_link,
 a.Social_link,
 a.Career_Profile_link,
@@ -74,7 +67,6 @@ a:focus {
   color: white;
 }
 .subOptions {
-  width: fit-content;
   margin-top: 30px;
 }
 .subOptions > * {
@@ -87,19 +79,14 @@ a:focus {
   color: white;
   font-family: BankSansRegular;
   font-size: 24px;
-  transition: 1s;
-  width: 20%;
   text-decoration: none;
-  padding: 5px;
+  margin-left: 30px;
 }
 
 .Social:hover,
 .Career_Profile:hover,
 .Challenges:hover,
 .Progression:hover {
-  margin-left: 40px;
-  background: rgba(50, 60, 95, 1);
-  transition: 0.4s;
-  width: fit-content;
-  padding: 5px;
+  padding-left: 2%;
+  transition: 1s;
 }

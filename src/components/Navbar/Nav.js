@@ -16,7 +16,7 @@ const Nav = () => {
         <div className="topRight_container">
           <div className="userProfile_container">
             <div className="imageProfile">
-              <img src="/images/LucioIcon.png" />
+              <img src="/overwatch_web/images/LucioIcon.png" />
             </div>
             <div className="userProfile">User</div>
           </div>

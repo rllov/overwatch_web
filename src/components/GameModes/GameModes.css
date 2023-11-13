@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.gamemode_container {
+  width: 100%;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.game_type_container {
+  color: white;
+  display: flex;
+  justify-content: space-evenly;
+  flex: 9;
+  margin: 30px;
+  align-items: center;
+  padding: 30px;
+}
+
+.unranked_container .unranked_img img {
+  background: linear-gradient(315deg, rgb(0, 140, 255), rgb(104, 218, 247));
+  width: 350px;
+  height: 500px;
+}
+
+.competitive_container .competitive_img img {
+  background: linear-gradient(315deg, red, rgb(247, 201, 104));
+  width: 350px;
+  height: 500px;
+}
+
+.arcade_container .arcade_img img {
+  background: linear-gradient(135deg, rgba(0, 255, 0, 0.767), rgb(3, 87, 3));
+  width: 350px;
+  height: 500px;
+}
+
+.unranked_container,
+.competitive_container,
+.arcade_container,
+.gm_title {
+  background-color: white;
+  color: black;
+  max-width: 350px;
+  border: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+}
+
+.gm_desc p {
+  text-align: center;
+  font-size: 18px;
+  font-weight: 500;
+  padding: 10px;
+}

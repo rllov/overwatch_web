@@ -8,6 +8,7 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  min-height: 4vh;
 }
 .title_container {
   display: flex;
@@ -46,10 +47,12 @@
 }
 
 .userProfile_container:hover,
-.socials:hover,
+.socials:hover {
+  background-color: lightgray;
+}
+
 .challenges:hover {
-  border: solid 3px #fff;
-  transition: all ease-in-out 0.2s;
+  background-color: rgb(180, 76, 6);
 }
 .imageProfile {
   background-color: white;

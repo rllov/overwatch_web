@@ -6,10 +6,10 @@ import { HashRouter, Routes, Route } from "react-router-dom";
 import data from "./components/Heroes/HeroesData.json";
 
 import Home from "./components/Home/Home";
-import Play from "./components/Play";
 import Nav from "./components/Navbar/Nav";
 import Heroes from "./components/Heroes/Heroes";
 import HeroProfile from "./components/Heroes/HeroProfile";
+import GameModes from "./components/GameModes/GameModes";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -18,9 +18,9 @@ root.render(
       <Nav />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/Play" element={<Play />} />
         <Route path="/Heroes" element={<Heroes />} />
         <Route path="/hero/:heroTag" element={<HeroProfile data={data} />} />
+        <Route path="/Game_Modes" element={<GameModes />} />
       </Routes>
     </HashRouter>
   </React.StrictMode>

@@ -21,9 +21,9 @@ const Home = () => {
               HEROES
             </Link>
           </div>
-          <div className="Shop">
-            <Link to="/Shop" className="Shop_link">
-              SHOP
+          <div className="Game_Modes">
+            <Link to="/Game_Modes" className="Game_Modes_link">
+              GAME MODES
             </Link>
           </div>
           <div className="Battle_Pass">
